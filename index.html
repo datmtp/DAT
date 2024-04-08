@@ -5,7 +5,7 @@
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <meta name="description"
-        content="Trang web đếm ngược ngày thi tốt nghiệp THPT dành cho học sinh THPT">
+        content="Đếm Ngược Ngày Thi THPT Cùng Đạt">
     <link rel="canonical" href="https://anhkhoatqt11.github.io/demnguockithi/" />
     <title>Đếm ngược ngày thi tốt nghiệp THPT 2024</title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
@@ -55,7 +55,7 @@
         <img src="images/background3.png" id="images">
         <div class="content">
             <h5 style="margin-left: 10px;font-weight: bold;">Đếm ngược ngày thi tốt nghiệp THPT 2024</h5>
-            <p style="margin-left: 10px;">Trang web đếm ngược ngày thi tốt nghiệp THPT 2024</p>
+            <p style="margin-left: 10px;">Trang web đếm ngược ngày cùng Đạt thi tốt nghiệp THPT 2024</p>
             <div style="font-size: 30px" class="wrapper">
                 <p class="center-align">
                     <i class="material-icons" style="text-align: center">article</i>
@@ -122,156 +122,15 @@
                 }, 1000);
             </script>
             <pre>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+<div>
+    <p class="center-align">
+        <a href="#" id="randomText" onclick="newQuote();" class="center"
+            style="display:block;text-align: center;font-size: 20px;color: white;font-family: 'AvertaBold';">
+        </a>
+    </p>
+</div>
 </pre>
         </div>
-    </div>
-    <div id="footer" class="white-text">
-        <div class="popup" onclick="myFunction()"> ​​​​
-            <i class="material-icons">info</i>
-            <span class="popuptext" id="myPopup">
-                <i>Trang web có sử dụng câu châm ngôn từ nhiều nguồn</i>
-                <br>
-                <i>Trang web có sử dụng hình ảnh của các tác giả/nền tảng: denamorado, <a
-                        href="https://www.freepik.com/vectors/background">freepik.</a></a></i>
-                <br>
-            <i>Thời gian thi hiện tại chỉ là dự kiến, chưa có thông tin chính thức</i>
-            </span>
-        </div>
-        <a style="margin-left:5px;"
-        href="https://github.com/anhkhoatqt11/demnguockithi"
-        aria-label="Github">
-        <i class="fa fa-github" style="font-size:23px; position: absolute;top:1px;color:white"></i>
-    </a>
-    </div>
 </body>
 <script type="text/javascript">
     var totalCount = 3;
@@ -288,5 +147,35 @@
         });
     });
 </script>
+<script>
+    const phrases = [
+      "Đạt Siêu Cấp.",
+        "Công Gay Bê Đê Siêu Cấp Vip Pro Lever Max.",
+        "Hoàng Gay Yêu Cong Gay.",
+        "Nhật Thích Ăn 3 Tô Cơm.",
+        "Lười Ghi Quá.",
+        "Sắp Thi Rồi Sao.",
+        "Trung Ngu.",
+        "Hoàng Vâu Óc Chóa.",
+        "Phú Dammy [DJ Dammy].",
+        "Đến Đây Chỉ Muốn Nói Rằng Đạt Đẹp Zai Khoai To 300 KM.",
+        "HỞ.",
+        "Đọc Làm Con Đạt.",
+        "Học Đi Mấy Con Lười.",
+        "Đừng Để Vào Công Ty Nam Thoát Y Của Hoàng."
+    ];
 
+    function getRandomPhrase() {
+        const randomIndex = Math.floor(Math.random() * phrases.length);
+        return phrases[randomIndex];
+    }
+
+    function displayRandomText() {
+        const randomTextElement = document.getElementById("randomText");
+        randomTextElement.textContent = getRandomPhrase();
+    }
+
+    // Update the text every 3 seconds
+    setInterval(displayRandomText, 100000);
+</script>
 </html>
